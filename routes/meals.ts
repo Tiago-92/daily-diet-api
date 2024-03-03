@@ -19,7 +19,7 @@ export default async function mealsRoutes(app: FastifyInstance) {
     return { meals }
   })
 
- /*  app.get('/:id', async (request) => {
+  /*  app.get('/:id', async (request) => {
     const getMealsParamsSchema = z.object({
       id: z.string().uuid(),
     })
